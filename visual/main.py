@@ -128,6 +128,16 @@ class MainWindow(QMainWindow):
 
             QMessageBox.warning(self, "Ошибка", "Директория для сохранения должна быть задана")
             return
+        if not os.path.exists(self.augmented_pics.selected_dir.text()):
+            self.augmented_pics.status_bar.setStyleSheet("background-color: red")
+            self.timer = QTimer()
+            self.timer.setInterval(1000)
+            self.timer.timeout.connect(lambda : self.augmented_pics.status_bar.setStyleSheet(""))
+            self.timer.start()
+
+            QMessageBox.warning(self, "Ошибка", "Директория для сохранения задана некорректно!")
+            return
+
 
         _, files = self.original_pics.count_selection()
         if files == 0:
