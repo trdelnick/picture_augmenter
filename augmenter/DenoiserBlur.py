@@ -2,7 +2,6 @@ from typing import override
 
 from numpy import ndarray
 import numpy as np
-from numpy.ma.core import zeros_like
 
 from augmenter.BaseAugmenter import BaseAugmenter
 from augmenter.utils import expand_pic

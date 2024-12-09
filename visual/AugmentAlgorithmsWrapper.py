@@ -1,8 +1,8 @@
-from PyQt5.QtCore import QLine, QObject
+from PyQt5.QtCore import  QObject
 from PyQt5.QtWidgets import QWidget, QRadioButton, QLineEdit, QLabel, QVBoxLayout, QPushButton, QHBoxLayout, \
     QButtonGroup, QFileDialog, QComboBox
 
-from augmenter.MoveAugmentor import MoveAugmentor, Direction, FillingRule
+from augmenter.MoveAugmentor import Direction, FillingRule
 
 
 class LabeledSomething(QWidget):

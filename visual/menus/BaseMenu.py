@@ -1,10 +1,7 @@
 import os
-from math import remainder
-from operator import index
 
-from PyQt5.QtCore import QObject, QModelIndex, QFile, Qt
-from PyQt5.QtWidgets import QMenu, QAction, QFileSystemModel, QTreeView, QErrorMessage, QMessageBox, QLineEdit, \
-    QInputDialog
+from PyQt5.QtCore import QModelIndex
+from PyQt5.QtWidgets import QMenu, QAction, QFileSystemModel, QMessageBox, QLineEdit, QInputDialog
 
 class BaseMenu(QMenu):
     def __init__(self, index: QModelIndex, fs_model: QFileSystemModel):

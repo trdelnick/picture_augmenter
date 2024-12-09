@@ -1,7 +1,5 @@
 from typing import override
-
 from numpy import ndarray
-
 from augmenter.BaseAugmenter import BaseAugmenter
 
 

@@ -1,11 +1,8 @@
-from tkinter import Widget
-from xml.etree.ElementPath import prepare_self
 
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import Qt, QModelIndex
 from PyQt5.QtGui import QPixmap, QImage
-from PyQt5.QtWidgets import QSplitter, QFileSystemModel, QHBoxLayout, QLabel, QCheckBox, QVBoxLayout, QWidget, \
-    QPushButton
+from PyQt5.QtWidgets import QSplitter, QFileSystemModel, QHBoxLayout, QLabel, QCheckBox, QVBoxLayout, QWidget
 
 
 class PictureExplorerBase(QSplitter):

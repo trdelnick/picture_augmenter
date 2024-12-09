@@ -1,6 +1,5 @@
-from PyQt5.QtCore import QObject, QModelIndex, QFile, Qt
-from PyQt5.QtWidgets import QMenu, QAction, QFileSystemModel, QTreeView, QErrorMessage, QMessageBox, QLineEdit, \
-    QInputDialog, QFileDialog
+from PyQt5.QtCore import QModelIndex
+from PyQt5.QtWidgets import QAction, QFileDialog
 
 from visual.menus.BaseMenu import BaseMenu
 

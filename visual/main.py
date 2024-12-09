@@ -1,9 +1,9 @@
 import os.path
-from multiprocessing.managers import Value
-
 import cv2
-from PyQt5.QtCore import QItemSelectionModel, QPropertyAnimation, pyqtProperty, QTimer
-from PyQt5.QtGui import QColor, QPalette
+from PyQt5.QtCore import QItemSelectionModel, QTimer
+from PyQt5.QtWidgets import QSplitter, QMainWindow, QWidget, QVBoxLayout, QPushButton, QApplication, \
+    QMessageBox, QHBoxLayout
+from PyQt5.QtCore import Qt
 
 from augmenter.BaseAugmenter import BaseAugmenter
 from augmenter.DenoiserBlur import DenoiserBlur
@@ -17,14 +17,8 @@ from visual.AugmentAlgorithmsWrapper import AugmentAlgorithmsWrapper
 from visual.pics_explorer.AugmentedPictureExplorer import AugmentedPictureExplorer
 from visual.pics_explorer.OriginalPictureExplorer import OriginalPictureExplorer
 
-ROOT_PATH = "" #"D:/Downloads/Course_project/Course_project/EuroSAT"
-SAVE_ROOT_PATH = "" # "D:/Desktop/HOMEWORK"
-
-
-
-from PyQt5.QtWidgets import QSplitter, QMainWindow, QWidget, QVBoxLayout, QPushButton, QApplication, \
-    QMessageBox, QHBoxLayout, QGraphicsDropShadowEffect, QGraphicsColorizeEffect
-from PyQt5.QtCore import Qt
+ROOT_PATH = ""
+SAVE_ROOT_PATH = ""
 
 
 class MainWindow(QMainWindow):

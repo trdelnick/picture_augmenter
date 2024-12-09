@@ -1,8 +1,7 @@
 import os.path
 
 from PyQt5.QtCore import Qt, QPoint
-from PyQt5.QtWidgets import QHBoxLayout, QFileDialog, QProgressBar, \
-    QPushButton, QLabel
+from PyQt5.QtWidgets import QHBoxLayout, QFileDialog, QProgressBar, QLabel
 
 from visual.ColorDelegate import ColorDelegate
 

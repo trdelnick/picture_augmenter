@@ -1,6 +1,5 @@
 from typing import override
 from numpy import ndarray
-from numpy.ma.core import shape
 
 from augmenter.BaseAugmenter import BaseAugmenter
 from enum import Enum

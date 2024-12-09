@@ -1,7 +1,5 @@
-from PyQt5 import QtWidgets
 from PyQt5.QtCore import Qt, QPoint
-from PyQt5.QtGui import QFont
-from PyQt5.QtWidgets import QFileDialog, QLineEdit, QHBoxLayout, QLabel
+from PyQt5.QtWidgets import QFileDialog, QHBoxLayout, QLabel
 
 from visual.pics_explorer.PictureExplorerBase import PictureExplorerBase
 from visual.menus.AugmentedFileExplorerMenu import AugmentedFileExplorerMenu

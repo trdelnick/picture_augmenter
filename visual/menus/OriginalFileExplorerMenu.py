@@ -1,10 +1,7 @@
 import os.path
-from xml.etree.ElementPath import prepare_self
-
 from PyQt5 import QtGui
-from PyQt5.QtCore import QObject, QModelIndex, QFile, Qt, QItemSelectionModel
-from PyQt5.QtWidgets import QMenu, QAction, QFileSystemModel, QTreeView, QErrorMessage, QMessageBox, QLineEdit, \
-    QInputDialog, QFileDialog, QApplication
+from PyQt5.QtCore import  QModelIndex, Qt
+from PyQt5.QtWidgets import QAction, QFileDialog, QApplication
 
 from visual.menus.BaseMenu import BaseMenu
 
